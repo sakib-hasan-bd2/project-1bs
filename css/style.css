@@ -159,6 +159,9 @@ nav .login i {
 /* Delivery end */
 
 /* Popular start */
+#popular{
+  margin-top: 133px;
+}
 #popular .item{
   background: url(../images/popular.png) no-repeat center center;
   background-size: cover;
@@ -180,8 +183,25 @@ nav .login i {
   max-width: 512px;
   margin-bottom: 49px;
 }
-.carousel-item .img_s_main{
+.carousel-item .image_main{
   display: flex;
-  column-gap: 30px;
+  column-gap: 15px;
+}
+.hello{
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  color:#000;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+.hello i{
+  font-size: 24px;
+}
+.hello:hover i{
+  color:#fff;
 }
 /* Popular end */
